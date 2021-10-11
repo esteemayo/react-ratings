@@ -1,0 +1,3 @@
+# React Ratings Application
+
+This application shows or teaches the basics of making a star review ratings...
