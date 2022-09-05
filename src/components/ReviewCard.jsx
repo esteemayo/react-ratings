@@ -1,4 +1,4 @@
-import { AiFillStar } from 'react-icons/ai';
+import Star from './Star';
 import { colors } from 'utils/data';
 
 const ReviewCard = ({ rating, review }) => {
@@ -9,9 +9,8 @@ const ReviewCard = ({ rating, review }) => {
         {[...Array(5)].map((_, index) => {
           const ratingValue = index + 1;
           return (
-            <AiFillStar
+            <Star
               key={index}
-              size={17}
               color={rating >= ratingValue ? colors.orange : colors.gray}
             />
           );

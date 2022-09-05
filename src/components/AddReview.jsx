@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
-import { AiFillStar } from 'react-icons/ai';
 
+import Star from './Star';
 import Button from './Button';
 import { colors } from 'utils/data';
 import { useGlobalContext } from 'context/ReviewContext';
@@ -53,9 +53,8 @@ const AddReview = () => {
         <div className='reviewer-stars'>
           {stars.map((_, index) => {
             return (
-              <AiFillStar
+              <Star
                 key={index}
-                size={17}
                 onClick={() => handleClick(index + 1)}
                 color={
                   (hoverValue || currentValue) > index
