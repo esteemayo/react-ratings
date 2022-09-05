@@ -1,3 +1,8 @@
+export const colors = {
+  orange: '#FFBA5A',
+  gray: '#a9a9a9',
+};
+
 export const data = [
   {
     id: 1,
