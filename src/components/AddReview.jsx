@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import Star from './Star';
 import Button from './Button';
@@ -40,6 +40,10 @@ const AddReview = () => {
     addReview(newPost);
     handleClear();
   };
+
+  useEffect(() => {
+    reviewRef.current.focus();
+  }, []);
 
   return (
     <>
