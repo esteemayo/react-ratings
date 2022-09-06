@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <p className='footer-text'>
-        &copy; {year} All rights reserved. Design by Emmanuel Adebayo&trade;
+        &copy; {year} All rights reserved. Design by{' '}
+        <span>Emmanuel Adebayo&trade;</span>
       </p>
     </footer>
   );
