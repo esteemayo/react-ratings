@@ -12,6 +12,10 @@
   transition: all 0.5s ease-in-out;
 }
 
+.app.dark .navbar {
+  background-image: linear-gradient(to right bottom, #7968ce, #27015f);
+}
+
 .app.dark textarea {
   border: 1.5px solid #7968ce;
 }
