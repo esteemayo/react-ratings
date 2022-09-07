@@ -1,0 +1,23 @@
+.app.dark .container {
+  background-color: #111;
+}
+
+.app.dark textarea {
+  border: 1.5px solid #7968ce;
+  caret-color: #e82c75;
+}
+
+.app.dark textarea:focus {
+  -webkit-box-shadow: inset 2px 4px 1rem 1px rgba(77, 77, 77, 0.57);
+  box-shadow: inset 2px 4px 1rem 1px rgba(77, 77, 77, 0.57);
+}
+
+.app.dark .list-items {
+  -webkit-box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
+  box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
+}
+
+.app.dark .footer-text span:hover {
+  background-color: #222;
+  box-shadow: 0 1rem 2rem rgba(55, 55, 55, 0.4);
+}
