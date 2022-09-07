@@ -1,10 +1,19 @@
+.app.dark ::selection {
+  background-color: var(--color-white);
+  color: #9c88ff;
+}
+
+.app {
+  transition: all 0.5s ease-in-out;
+}
+
 .app.dark {
   background-color: #111;
+  transition: all 0.5s ease-in-out;
 }
 
 .app.dark textarea {
   border: 1.5px solid #7968ce;
-  caret-color: #e82c75;
 }
 
 .app.dark textarea:focus {
@@ -15,6 +24,10 @@
 .app.dark .list-items {
   -webkit-box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
   box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
+}
+
+.app.dark .review {
+  color: rgb(156, 156, 156);
 }
 
 .app.dark .footer-text span:hover {
