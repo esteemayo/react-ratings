@@ -1,5 +1,6 @@
 import Title from 'components/Title';
 import Footer from 'components/Footer';
+import Navbar from 'components/Navbar';
 import Reviews from 'components/Reviews';
 import BackToTop from 'components/BackToTop';
 import AddReview from 'components/AddReview';
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className={darkMode ? 'app dark' : 'app'}>
+      <Navbar />
       <div className='container'>
         <Title />
         <AddReview />
