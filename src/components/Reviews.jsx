@@ -4,6 +4,7 @@ import ReviewCard from './ReviewCard';
 const Reviews = ({ reviews }) => {
   return (
     <div className='wrapper'>
+      <h2 className='heading-secondary'>Reviews ({reviews?.length})</h2>
       {reviews.map((item) => {
         return <ReviewCard key={item.id} {...item} />;
       })}
