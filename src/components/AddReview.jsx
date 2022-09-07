@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import Star from './Star';
 import Button from './Button';
 import { colors } from 'utils/data';
-import { useGlobalContext } from 'context/ReviewContext';
+import { useGlobalContext } from 'context/reviews/ReviewContext';
 
 const AddReview = () => {
   const reviewRef = useRef();
