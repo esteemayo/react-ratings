@@ -43,13 +43,7 @@ body {
 .navbar {
   width: 100%;
   height: 7rem;
-  background-image: linear-gradient(
-    to right bottom,
-    #a292f5,
-    #7968ce,
-    #a026bf,
-    #4e00c2
-  );
+  background-image: linear-gradient(to right bottom, #a292f5, #7968ce, #4e00c2);
   display: flex;
   align-items: center;
 }
@@ -373,15 +367,7 @@ textarea::placeholder {
   text-transform: capitalize;
   padding: 0.5rem 1rem;
   background-color: #7968ce;
-  background-image: linear-gradient(
-    to right bottom,
-    #bfb3fd,
-    #9c88ff,
-    #7968ce,
-    #a026bf,
-    #a026bf,
-    #8904aa
-  );
+  background-image: linear-gradient(to right bottom, #bfb3fd, #9c88ff, #8904aa);
   color: var(--color-white);
   border-radius: 0.5rem;
   outline: none;
@@ -410,15 +396,7 @@ textarea::placeholder {
 }
 
 .btn:hover {
-  background-image: linear-gradient(
-    to left bottom,
-    #bfb3fd,
-    #9c88ff,
-    #7968ce,
-    #a026bf,
-    #a026bf,
-    #8904aa
-  );
+  background-image: linear-gradient(to left bottom, #bfb3fd, #9c88ff, #8904aa);
   animation: pulsate 1s ease-in-out;
 }
 
