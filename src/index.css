@@ -40,11 +40,65 @@ body {
   color: #333;
 }
 
+.navbar {
+  width: 100%;
+  height: 7rem;
+  background-image: linear-gradient(
+    to right bottom,
+    #a292f5,
+    #7968ce,
+    #a026bf,
+    #4e00c2
+  );
+  display: flex;
+  align-items: center;
+}
+
+.navbar__left {
+  flex: 1;
+}
+
+.logo {
+  display: inline-block;
+  color: var(--color-white);
+  margin-left: 3rem;
+  letter-spacing: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+  transform-origin: top;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.navbar__right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.toggle {
+  display: inline-block;
+  color: var(--color-white);
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.toggle:hover {
+  transform: scale(1.3);
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  margin-top: 3rem;
 }
 
 @media only screen and (max-width: 56.25em) {
