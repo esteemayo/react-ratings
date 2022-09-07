@@ -36,5 +36,6 @@
 
 .app.dark .footer-text span:hover {
   background-color: #222;
+  -webkit-box-shadow: 0 1rem 2rem rgba(55, 55, 55, 0.4);
   box-shadow: 0 1rem 2rem rgba(55, 55, 55, 0.4);
 }
