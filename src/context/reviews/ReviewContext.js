@@ -1,8 +1,8 @@
 import { createContext, useContext, useReducer, useEffect } from 'react';
 
 import { data } from 'utils/data';
-import { ADD_REVIEW } from './ReviewTypes';
 import ReviewReducer from './ReviewReducer';
+import { ADD_REVIEW, DELETE_REVIEW } from './ReviewTypes';
 import { getFromStorage, setToStorage, tokenKey } from 'utils';
 
 const getLocalStorage = () => {
@@ -26,12 +26,19 @@ const ReviewProvider = ({ children }) => {
     });
   };
 
+  const deleteReview = (id) => {
+    dispatch({
+      type: DELETE_REVIEW,
+      payload: id,
+    });
+  };
+
   useEffect(() => {
     setToStorage(tokenKey, state.reviews);
   }, [state.reviews]);
 
   return (
-    <ReviewContext.Provider value={{ ...state, addReview }}>
+    <ReviewContext.Provider value={{ ...state, addReview, deleteReview }}>
       {children}
     </ReviewContext.Provider>
   );
