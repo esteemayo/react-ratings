@@ -11,9 +11,9 @@ const Navbar = () => {
       </div>
       <div className='navbar__right'>
         {darkMode ? (
-          <FaLightbulb className='toggle' onClick={toggle} />
+          <FaLightbulb className='toggle-icon' onClick={toggle} />
         ) : (
-          <FaPowerOff className='toggle' onClick={toggle} />
+          <FaPowerOff className='toggle-icon' onClick={toggle} />
         )}
       </div>
     </nav>
