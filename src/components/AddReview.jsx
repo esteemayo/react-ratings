@@ -1,3 +1,4 @@
+import { FaArrowRight } from 'react-icons/fa';
 import { useEffect, useRef, useState } from 'react';
 
 import Star from './Star';
@@ -74,7 +75,8 @@ const AddReview = () => {
         </div>
         <div className='btn-wrapper'>
           <Button
-            text='Submit review →'
+            text='Submit review'
+            icon={<FaArrowRight />}
             onClick={handleSubmit}
             disabled={review === '' ?? false}
           />
