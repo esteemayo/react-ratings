@@ -365,7 +365,9 @@ textarea::placeholder {
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 3px solid #7968ce;
   width: 100%;
   text-transform: capitalize;
