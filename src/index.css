@@ -135,6 +135,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 51.25em) {
+  .container {
+    align-items: center;
+  }
+}
+
 @media only screen and (max-width: 45.3125em) {
   .container {
     padding: 0 5rem;
@@ -452,6 +458,12 @@ textarea::placeholder {
   }
 }
 
+@media only screen and (max-width: 51.25em) {
+  .wrapper {
+    align-items: center;
+  }
+}
+
 @media only screen and (max-width: 22.5em) {
   .wrapper {
     align-items: center;
@@ -627,10 +639,23 @@ textarea::placeholder {
   }
 }
 
+@media only screen and (max-width: 51.25em) {
+  .scroll {
+    right: 0.5rem;
+  }
+}
+
 @media only screen and (max-width: 50em) {
   .scroll {
     bottom: 1rem;
     right: 15rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .scroll {
+    bottom: 3.5rem;
+    right: 0.5rem;
   }
 }
 
