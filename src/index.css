@@ -41,7 +41,6 @@ body {
 }
 
 .navbar {
-  -webkit-position: sticky;
   position: sticky;
   top: 0;
   width: 100%;
