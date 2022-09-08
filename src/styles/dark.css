@@ -25,6 +25,14 @@
   box-shadow: inset 2px 4px 1rem 1px rgba(77, 77, 77, 0.57);
 }
 
+.app.dark .btn {
+  background-image: linear-gradient(to right bottom, #9c88ff, #8904aa);
+}
+
+.app.dark .btn:hover {
+  background-image: linear-gradient(to left bottom, #9c88ff, #8904aa);
+}
+
 .app.dark .list-items {
   -webkit-box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
   box-shadow: 0 0.3rem 1rem 0.5rem rgba(55, 55, 55, 0.2);
