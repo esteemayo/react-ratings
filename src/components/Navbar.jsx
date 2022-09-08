@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPowerOff } from 'react-icons/fa';
+import { DarkModeOutlined, LightModeOutlined } from '@mui/icons-material';
 import { useDarkModeGlobalContext } from 'context/darkmode/DarkModeContext';
 
 const Navbar = () => {
@@ -11,9 +11,9 @@ const Navbar = () => {
       </div>
       <div className='navbar__right'>
         {darkMode ? (
-          <FaLightbulb className='toggle-icon' onClick={toggle} />
+          <LightModeOutlined className='toggle-icon' onClick={toggle} />
         ) : (
-          <FaPowerOff className='toggle-icon' onClick={toggle} />
+          <DarkModeOutlined className='toggle-icon' onClick={toggle} />
         )}
       </div>
     </nav>
