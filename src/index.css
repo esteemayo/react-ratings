@@ -51,6 +51,10 @@ body {
   z-index: 1000;
 }
 
+.navbar.scrolled {
+  background-image: linear-gradient(to left bottom, #a292f5, #7968ce, #4e00c2);
+}
+
 @media only screen and (max-width: 56.25em) {
   .navbar {
     height: 5rem;

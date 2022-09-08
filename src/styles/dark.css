@@ -16,6 +16,10 @@
   background-image: linear-gradient(to right bottom, #7968ce, #27015f);
 }
 
+.app.dark .navbar.scrolled {
+  background-image: linear-gradient(to left bottom, #7968ce, #27015f);
+}
+
 .app.dark textarea {
   border: 1.5px solid #7968ce;
 }
