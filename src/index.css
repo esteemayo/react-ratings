@@ -99,14 +99,18 @@ body {
 .toggle-icon {
   display: inline-block;
   color: var(--color-white);
+  width: 3.25rem !important;
+  height: 3.25rem !important;
   font-size: 2.5rem;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out !important;
 }
 
 @media only screen and (max-width: 56.25em) {
   .toggle-icon {
     font-size: 2rem;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
   }
 }
 
