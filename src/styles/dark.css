@@ -26,11 +26,11 @@
 }
 
 .app.dark .btn {
-  background-image: linear-gradient(to right bottom, #9c88ff, #8904aa);
+  background-image: linear-gradient(to right bottom, #7968ce, #8904aa);
 }
 
 .app.dark .btn:hover {
-  background-image: linear-gradient(to left bottom, #9c88ff, #8904aa);
+  background-image: linear-gradient(to left bottom, #7968ce, #8904aa);
 }
 
 .app.dark .list-items {
